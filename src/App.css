@@ -1,0 +1,133 @@
+.container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+p {
+  font-family: verdana, serif;
+}
+
+h1 {
+  color: blue;
+  text-shadow: 1px 1px 1px black;
+  font-size: 46px;
+  font-family: cursive, serif;
+  margin: 0;
+  text-align: center;
+  clear: both;
+}
+
+#home-subheader {
+  font-size: 26px;
+  color: #173e8c;
+  margin: 0;
+  font-family: fantasy, serif;
+}
+
+.container nav ul {
+  background-color: black;
+  margin: 0;
+}
+
+nav.inverse {
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+}
+
+nav ul li {
+  position: relative;
+  width: inherit;
+  display: inline-block;
+  margin-right: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float:left;
+}
+
+nav ul li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.col-1 {
+  width: 32%;
+  float: left;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+[class^="col-"]{
+  margin-left: 2%;
+}
+
+.clear {
+  clear: both;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.form-label {
+  position: relative;
+  display: block;
+  float: right;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-label:hover {
+  cursor: pointer;
+}
+
+.form-control {
+  display: block;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin-bottom: 5px;
+}
